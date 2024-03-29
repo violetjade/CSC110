@@ -12,7 +12,6 @@ body {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(lightgreen, #ded2f7);
-  padding: 20%;
 }
 
 .header {
@@ -45,8 +44,6 @@ body {
   text-stroke: 0.5px white; 
   font-weight: 600;
   transition: 1s;
-  text-decoration: underline;
-   text-decoration-thickness: 1px; 
 }
 
 .textbox {
