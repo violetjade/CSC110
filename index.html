@@ -5,9 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Favorite Foods</title>
-  <meta charset=“UTF-8”>
-   <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-   <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -16,20 +13,47 @@
   <script src="script.js"></script>
   <div class="background">
     <br>
-    <div class="header">
-      MY FAVORITE FOODS
-    </div>
-    <div class="menu">
-      <div class="menuitem">CURRY</div>
-      <div class="menuitem">CHOCOLATE</div>
-      <div class="menuitem">PASTA</div>
-      <div class="menuitem">BREAD</div>
-      <div class="menuitem">CHILI</div>
-    </div>
-    <br>
-    <div class="textbox">
-      <h2>Welcome to my website all about my favorite foods!</h2>
-      <p>Click on one of the menu items to see more info :)</p>
+    <div class="alltext">
+      <div class="header">
+        MY FAVORITE FOODS
+      </div>
+      <div class="menu">
+        <div class="menuitem" onclick="menuClick('box1')">CURRY</div>
+        <div class="menuitem" onclick="menuClick('box2')">CHILI</div>
+        <div class="menuitem" onclick="menuClick('box3')">PASTA</div>
+        <div class="menuitem" onclick="menuClick('box4')">BREAD</div>
+        <div class="menuitem" onclick="menuClick('box5')">CHOCOLATE</div>
+      </div>
+      <br>
+      <div class="textbox show">
+        <h2>Welcome to my website all about my favorite foods as a vegan!</h2>
+        <p>Click on one of the menu items to see more info :)</p>
+      </div>
+      <div id= "box1" class="hide">
+        <div class="textbox">
+          <p>This is a category of food that has cultural roots in Asia, particularly South Asia. It is a dish with a spiced sauce base, with endless amounts of variety. Intense depth of flavor is the standard, and it's what makes each kind so delicious no matter the specific add-ins. This customizability makes it simple to make compatible with a diet free of animal products.</p>
+        </div>
+      </div>
+      <div id= "box2" class="hide">
+        <div class="textbox">
+          <p>The dish known as chili con carne from Mexico has grown to be so popular in America that it is usally abbreviated as just "chili". It has grown to be one of my favorites because of how easy it can be to make and, particularly, veganize.</p>
+        </div>
+      </div>
+      <div id= "box3" class="hide">
+        <div class="textbox">
+          <p>This highly popular Italian dish is a staple even in the United States. It is used as a base for many kinds of dishes, usually ones that incorporate a sauce with various add-ins. The plethora of shape options it comes in makes it especially fun as a food. It is often naturally vegan (when made without eggs) and very affordable, so it is a go-to for my cooking. One of my favorite things to do with cooking is to try a new pasta recipe, which is often as easy as switching up sauce ingredients to make new combinations.</p>
+        </div>
+      </div>
+      <div id= "box4" class="hide">
+        <div class="textbox">
+          <p>Bread is one of the world's favorite foods, as basically every culture across the globe has some sort of bread in their cuisine. Dough made with flour and water is the only requirement to consider something bread, so there are countless options for making it into a unique kind of bread, just by changing the preparation process or by cooking it differently or by adding other ingredients.</p>
+        </div>
+      </div>
+      <div id= "box5" class="hide">
+        <div class="textbox">
+          <p>This highly favored confectionary made from processing cacao seeds is found in all sorts of candy and desserts. While it can be consumed in its naturally bitter form without anything added, usually people enjoy it with sweet ingredients mixed in. My personal preference is darker chocolate, with more cacao and less sweeteners. It can be eaten by itself as the basic chocolate confectionary, but it is also used as an ingredient in other dishes.</p>
+        </div>
+      </div>
     </div>
   </div>
 
